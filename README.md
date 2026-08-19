@@ -1,48 +1,54 @@
-# Library Management System — Module 7 Prototype
+# 📚 Vue 3 Library Management Portal (Module 7)
 
-## Student Information
+> A frontend implementation for the Library System project designed in Module 6, focusing on the Book Catalog subsystem.
+
+---
+
+## 👤 Developer Profile
 * **Name:** Maria Crischan Panganiban
-* **Course and Section:** BSCS 3A
-* **Subject:** Software Engineering 1
-* **Module:** Module 7 - Design and Implementation
+* **Section:** BSCS 3A
+* **Course:** Software Engineering 1
 
-## System Description
-This is a working frontend prototype of the Book Catalog and Management module from the Library System proposed in Module 6. It allows users and staff to add, view, edit, delete, and search book records directly in the browser with a clean library-themed UI.
+---
 
-## Selected Module 6 Entity
-Book, with fields: title, author, category, and status (Available / Borrowed).
+## 📖 Project Overview
+This repository contains the working prototype for Module 7. While Module 6 established the architectural blueprints and database layouts, this implementation brings the **Book Management** features to life in the browser. It features a responsive, library-inspired interface where administrators and library users can seamlessly handle book records.
 
-## Implemented Features
-* Add a new book record (Create)
-* View all books in a table (Read)
-* Edit an existing book record (Update)
-* Delete a book record with confirmation (Delete)
-* Search books by title, author, or category
-* Form validation for required fields
-* Data persists after refresh via localStorage
+### Core Entity Specifications
+* **Primary Entity:** Book
+* **Data Fields:** 
+  * `title` (Book Title)
+  * `author` (Author Name)
+  * `category` (Genre / Classification)
+  * `status` (Availability state: *Available* or *Borrowed*)
 
-## Technologies Used
-* Vue.js 3 + Vite
-* Tailwind CSS v4
-* JavaScript (Composition API)
-* Browser localStorage
-* Git + GitHub
-* GitHub Actions (CI build check)
+---
 
-## Installation and Run Instructions
-* Clone the repository: `git clone https://github.com/cesspanganiban211-spec/panganiban-module7-vue-system.git`
-* Go to the project folder: `cd panganiban-module7-vue-system`
-* Install dependencies: `npm install`
-* Run the app: `npm run dev`
-* Open the local address shown in the terminal example `http://localhost:5173/`
+## 🛠️ Key Functionalities & Features
+* **Catalog Management (CRUD):** 
+  * Add new books with immediate UI updates.
+  * View all entries via an interactive data table.
+  * Modify and update existing book details.
+  * Remove catalog items safely using confirmation dialogs.
+* **Smart Search & Filter:** Quickly locate books filtering by title, author, or category.
+* **Data Persistence:** Integrated with browser `localStorage` to retain records across page refreshes (simulation of the Module 6 data layer).
+* **Input Validation:** Built-in safeguards preventing empty submissions on required book fields.
 
-## About localStorage
-This prototype simulates the data layer using the browser's localStorage instead of a real database. All book records are saved under the key `panganiban-module7-books` and are read back automatically when the app loads. This is a temporary browser-only substitute for the database data layer proposed in the Module 6 architecture.
+---
 
-## Connection Between Module 6 and Module 7
-Module 6 proposed a three-tier architecture with Vue.js as the presentation layer, a backend service as the application layer, and a database layer. Module 7 implements only the presentation layer and a simulated data layer using localStorage for the Book entity, while the backend, API, and database remain proposed future components.
+## ⚙️ Technology Stack
+* **Framework:** Vue.js 3 (Composition API)
+* **Build Tool:** Vite
+* **Styling:** Tailwind CSS v4
+* **Storage Engine:** Browser `localStorage` (Key: `panganiban-module7-books`)
+* **Versioning & CI:** Git, GitHub, and automated GitHub Actions workflows.
 
-## Known Limitations and Future Improvements
-* No real backend, API, or database connection yet, data is local to the browser only.
-* No user authentication or multi-user support.
-* Future versions will connect to the backend and database stack as proposed in Module 6.
+---
+
+## 🚀 Getting Started Locally
+
+To run and test this project on your local machine, execute these commands in your terminal:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/cesspanganiban211-spec/panganiban-module7-vue-system.git
