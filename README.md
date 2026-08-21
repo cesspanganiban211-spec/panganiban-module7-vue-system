@@ -49,3 +49,80 @@ Module 6 proposed a multi-tier system architecture featuring Vue.js as the prese
 * **Future Improvements:**
   * Connect the frontend to a Node.js/Express backend and MongoDB Atlas database as originally designed in Module 6.
   * Implement user authentication for librarians and library members.
+
+  ## Application Screenshots
+
+### Running Application
+
+
+![Running application](docs/screenshots/01-running-application.png)
+
+
+
+### Add Record
+
+
+![Add record](docs/screenshots/02-add-record.png)
+
+
+
+### Record List
+
+
+![Record list](docs/screenshots/03-record-list.png)
+
+
+
+### Edit Record
+
+
+![Edit record](docs/screenshots/04-edit-record.png)
+
+
+
+### Delete Confirmation
+
+
+![Delete confirmation](docs/screenshots/05-delete-confirmation.png)
+
+
+
+### Search Function
+
+
+![Search function](docs/screenshots/06-search-function.png)
+
+
+
+### localStorage (Browser DevTools)
+
+
+![localStorage](docs/screenshots/07-localstorage.png)
+
+
+
+### Responsive View
+
+
+![Responsive view](docs/screenshots/08-responsive-view.png)
+
+
+
+### GitHub Repository
+
+
+![GitHub repository](docs/screenshots/09-github-repository.png)
+
+
+
+### Commit History
+
+
+![Commit history](docs/screenshots/10-commit-history.png)
+
+
+
+### CI Build Success
+
+
+![CI success](docs/screenshots/11-ci-success.png)
